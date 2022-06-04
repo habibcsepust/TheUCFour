@@ -1,0 +1,91 @@
+﻿@model TheUCFour.Models.CustomerViewModel
+
+
+<table class="table table-bordered" id="CustomerDetails">
+    <thead>
+        <tr>
+            <th>SL</th>
+            <th>Code No</th>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Email</th>
+            <th>Contact</th>
+            <th>Loyality Point</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int sl = 1;
+        }
+        @foreach (var customer in Model.Customers)
+        {
+        <tr>
+            <td>@(sl++)</td>
+            <td>@customer.Code</td>
+            <td>@customer.Name</td>
+            <td>@customer.Address</td>
+            <td>@customer.Email</td>
+            <td>@customer.Contact</td>
+            <td>@customer.LoyalityPoint</td>
+            <td>
+                <span style="font-weight:bold;">
+                    @Html.ActionLink("Edit", "EditCustomer", "Customer", new { Id = customer.Id },
+                    new { @class = "fa fa-edit", style = "text-decoration:none;font-weight:bold;" })
+                </span>
+                <span style="font-weight:bold;">
+                    @Html.ActionLink("Delete", "DeleteCustomer", "Customer", new { Id = customer.Id },
+                    new { @class = "fas fa-trash-alt", style = "text-decoration:none;font-weight:bold;" })
+                </span>
+                <span style="font-weight:bold;">
+                    @Html.ActionLink("View", "ShowByIdCustomer", "Customer", new { Id = customer.Id },
+                    new { @class = "fa fa-eye", style = "text-decoration:none;font-weight:bold;" })
+                </span>
+            </td>
+        </tr>
+        }
+    </tbody>
+
+</table>
+
+
+
+@*<table id="customers">
+    <tr>
+        <th>SL</th>
+        <th>Code No</th>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Email</th>
+        <th>Contact</th>
+        <th>Loyality Point</th>
+        <th style="text-align:center">Action</th>
+    </tr>
+    @{
+        int i = 0;
+    }
+    @foreach (var customer in Model.Customers)
+    {
+        <tr>
+            <td>@(++i)</td>
+            <td>@customer.Code</td>
+            <td>@customer.Name</td>
+            <td>@customer.Address</td>
+            <td>@customer.Email</td>
+            <td>@customer.Contact</td>
+            <td>@customer.LoyalityPoint</td>
+            <td>
+                <span style="font-weight:bold;">
+                    @Html.ActionLink("Edit", "EditCustomer", "Customer", new { Id = customer.Id }, null)
+                </span>
+                <span style="font-weight:bold;">
+                    @Html.ActionLink("Delete", "DeleteCustomer", "Customer", new { Id = customer.Id }, null)
+                </span>
+                <span style="font-weight:bold;">
+                    @Html.ActionLink("View", "ShowByIdCustomer", "Customer", new { Id = customer.Id }, null)
+                </span>
+            </td>
+        </tr>
+    }
+
+</table>*@

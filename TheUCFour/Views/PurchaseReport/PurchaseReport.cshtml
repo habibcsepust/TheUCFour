@@ -1,0 +1,170 @@
+﻿@model TheUCFour.ViewModel.ViewModel.PurchaseView1
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@section MyStyle
+{
+    <style>
+        h3 {
+            margin-left: 12.5%;
+            background: #f4f0f0;
+            padding: 5px 10px;
+            display: inline-flex;
+            border: 1px solid gray;
+        }
+
+        /*For First table*/
+        #customers {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 75%;
+            margin: 0 auto;
+        }
+
+            #customers td, #customers th {
+                border: 1px solid #ddd;
+                padding: 8px;
+            }
+
+            #customers tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            #customers tr:hover {
+                background-color: #ddd;
+            }
+
+            #customers th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                text-align: left;
+                background-color: #4CAF50;
+                color: white;
+                text-align: center;
+            }
+
+            #customers tr td label {
+                margin: 0 auto;
+            }
+
+            #customers tr td input {
+                width: 85%;
+                padding: 3px;
+            }
+
+        #add {
+            margin-left: 81.5%;
+            margin-top: 5px;
+            padding: 4px;
+            width: 6%;
+            background: #ff8000;
+        }
+
+        /*************Second Table***************/
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+}
+
+<div>
+    <h2 style="text-align:center;">Purchase Report</h2>
+    <h3>Search Product</h3>
+    <form method="post">
+        <table id="customers">
+            <tr>
+
+                <td><label for="category">Start Date :</label></td>
+                <td><input type="text" id="start_date" name="StartDate"></td>
+
+                <td><label for="product">End Date :</label></td>
+                <td><input type="text" id="end_date" name="EndDate"></td>
+
+            </tr>
+
+        </table>
+
+        <input type="submit" id="add" value="Search" />
+    </form>
+</div>
+
+@*Show Search Data*@
+<div>
+    <table>
+        <thead>
+            <tr>
+                <th>Sl</th>
+                <th>Product</th>
+                <th>Date</th>
+                <th>Available Quantity</th>
+                <th>CP(TK)</th>
+                <th>MRP(TK)</th>
+                <th>Profit(TK)</th>
+            </tr>
+        </thead>
+        @{ 
+            int i = 0;
+        }
+        <tbody id="ResultDetailsTable">
+            @foreach (var PurchaseView1 in Model.PurchaseView1s)
+            {
+                <tr>
+                    <td>@(++i)</td>
+                    <td>@PurchaseView1.Product</td>
+                    <td>@PurchaseView1.Date</td>
+                    <td>@PurchaseView1.AvailableQuantity</td>
+                    <td>@PurchaseView1.UnitPrice</td>
+                    <td>@PurchaseView1.MRP</td>
+                    <td>@PurchaseView1.Profit</td>
+                </tr>
+            }
+
+        </tbody>
+
+    </table>
+</div>
+
+
+@section MyScript
+{
+    <script>
+        //Satrt date
+        $(document).ready(function () {
+            $('#start_date').datepicker({
+                dateFormat: "dd/mm/yy",
+                changeMonth: true,
+                changeYear: true,
+                yearRange: "2000:2019",
+                showOn: "both",
+                buttonText: "<i class='fa fa-calendar'></i>"
+            });
+        });
+        //End date
+        $(document).ready(function () {
+            $('#end_date').datepicker({
+                dateFormat: "dd/mm/yy",
+                changeMonth: true,
+                changeYear: true,
+                yearRange: "2000:2019",
+                showOn: "both",
+                buttonText: "<i class='fa fa-calendar'></i>"
+            });
+        });
+
+    </script>
+}

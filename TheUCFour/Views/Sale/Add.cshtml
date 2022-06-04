@@ -1,0 +1,573 @@
+﻿@model TheUCFour.Models.SaleViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Add</title>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+
+        .sl {
+            text-align: center;
+            color: dodgerblue;
+        }
+
+        .Sls {
+            color: dodgerblue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2 class="sl">Sales Information</h2>
+
+        <form method="post">
+            <div>
+                <h2>Customer Information</h2>
+                <table>
+                    <tr>
+                        <td class="Sls">@Html.LabelFor(c => c.Customer)</td>
+                        <td>@Html.DropDownListFor(c => c.CustomerId, Model.CustomerSelectListItems, "--Select--")</td>
+                        <td class="Sls"><b>Date:</b></td>
+                        <td><input type="date" name="Date" id="Date" /></td>
+                        <td> @Html.ValidationMessageFor(c => c.Date)<br /></td>
+                        <td class="Sls"><b>Loyality Point:</b></td>
+                        <td><input type="text" name="LoyalityPoint" id="LoyalityPoint" /></td>
+                    </tr>
+                    <tr>
+                        @*<td>Date:</td>
+                            <td><input type="text" name="Date" id="Date"/></td>*@
+                        @*<td></td>*@
+                    </tr>
+                    <tr>
+                        @*<td>Loyality Point:</td>
+                            <td><input type="text" name="LoyalityPoint" id="LoyalityPoint"/></td>*@
+                        @*<td></td>*@
+                    </tr>
+                </table>
+            </div>
+
+            <div>
+                <h2>Product</h2>
+                <table>
+                    <tr>
+                        <td class="Sls">Category:</td>
+                        @*<td><input type="text" id="CategoryId" /></td>*@
+                        <td>@Html.DropDownList("CategoryId", null, "--Select--", null)</td>
+                        <td> @Html.LabelFor(s => s.GrandTotal, new { @class = "control-label col-md-4" })</td>
+                        <td>@Html.TextBoxFor(s => s.GrandTotal, new { @class = "form-control" })</td>
+                        <td> @Html.ValidationMessageFor(c => c.GrandTotal)<br /></td>
+                        @*<td><input type="text" id="GrandTotal" /></td>*@
+                    </tr>
+                    <tr>
+                        <td class="Sls">Product :</td>
+                        @*<td><input type="text" id="ProductId" /></td>*@
+                        <td>
+                            <select id="ProductId">
+                                <option>--Select--</option>
+                            </select>
+                        </td>
+                        <td class="Sls">Discount :</td>
+                        @*<td><input type="text" id="Discount" /></td>*@
+                        <td>@Html.TextBoxFor(s => s.Discount, new { @class = "form-control" })</td>
+                        <td> @Html.ValidationMessageFor(c => c.Discount)<br /></td>
+                    </tr>
+                    <tr>
+                        <td class="Sls">AavilableQuantity :</td>
+                        <td><input type="text" id="AvailableQuantity" /></td>
+
+                        <td class="Sls">DiscountAmount :</td>
+                        @*<td><input type="text" id="DiscountAmount" /></td>*@
+                        <td>@Html.TextBoxFor(s => s.DiscountAmount, new { @class = "form-control" })</td>
+                        <td> @Html.ValidationMessageFor(c => c.DiscountAmount)<br /></td>
+                    </tr>
+                    <tr>
+                        <td class="Sls">Quantity :</td>
+                        <td><input type="text" id="Quantity" /></td>
+
+                        <td class="Sls">PayableAmount :</td>
+                        @*<td><input type="text" id="PayableAmount" /></td>*@
+                        <td>@Html.TextBoxFor(s => s.PayableAmount, new { @class = "form-control" })</td>
+                        <td> @Html.ValidationMessageFor(c => c.PayableAmount)<br /></td>
+                    </tr>
+                    <tr>
+                        <td class="Sls">MRP (TK) :</td>
+                        <td><input type="text" id="MRP" /></td>
+                        <td class="Sls">TotalMRP (TK) :</td>
+                        <td><input type="text" id="TotalMRP" /></td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td><input type="button" id="add" value="Add" /></td>
+
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <table>
+
+                    <thead>
+                        <tr>
+                            <td class="Sls">Sl</td>
+                            <td class="Sls">Category</td>
+                            <td class="Sls">Product</td>
+                            <td class="Sls">Aavilable Quantity</td>
+                            <td class="Sls">Quantity</td>
+                            <td class="Sls">MRP (TK)</td>
+                            <td class="Sls">Total MRP (TK) </td>
+
+                        </tr>
+                    </thead>
+                    <tbody id="ResultDetailsTable">
+                        @*<tr>
+                                <td>Sl</td>
+                                <td>Subject</td>
+                                <td>Marks</td>
+                            </tr>*@
+                    </tbody>
+
+                </table>
+            </div>
+            <table>
+                <tr>
+                    <td><input type="submit" value="Save" /></td>
+                </tr>
+                <tr></tr>
+            </table>
+        </form>
+    </div>
+
+
+    <br />
+    <div>
+        <input type="text" name="Search" id="Search" value="" placeholder="Search"
+               style="padding: 8px;" />
+        <button id="SearchButton" style="padding: 6px 10px;">Search</button>
+        <h4 id="required" style="color:red;"></h4>
+    </div>
+    <br />
+
+    <table class="table table-dark" id="Sale">
+        <thead>
+            <tr>
+                <th>SL</th>
+                <th>Customer</th>
+                <th>Date</th>
+                <th>Loyality Point</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                int sl = 1;
+            }
+            @foreach (var customer in Model.Sales)
+            {
+                <tr>
+                    <td>@(sl++)</td>
+                    <td>@customer.Customer.Name</td>
+                    <td>@customer.Date</td>
+                    <td>@customer.Customer.LoyalityPoint</td>
+                    <td>
+                        <span>
+                            @Html.ActionLink("View", "SalesDetails", "Sale", new { Id = customer.Id },
+                               new { @class = "fa fa-eye", style = "color:white;text-decoration:none;font-weight:bold;" })
+                        </span>
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+
+
+</body>
+</html>
+
+
+@section MyScript
+{
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+
+
+    @*Avlalable qty and qty*@
+    <script>
+        $(document).ready(function () {
+            $("#Quantity").keypress(function () {
+                if ($("#AvailableQuantity").val() > $("#Quantity").val()) {
+                    alert("Sorry..! There is no more available quantity");
+                    return;
+                }
+                }
+            });
+        });
+    </script>
+
+
+
+    @*For Live Search*@
+    <script>
+        $(document).ready(function () {
+            $("#SearchButton").click(function () {
+                if ($("#Search").val() == "") {
+                    //alert("required..");
+                    $("#required").text("Please Required Search Value");
+                    return;
+                }
+                $("#required").text("");
+                SearchTable($("#Search").val());
+            });
+
+            function SearchTable(value) {
+                $("#Sale tbody tr").each(function () {
+                    var found = 'false';
+                    $(this).each(function () {
+                        if ($(this).text().toLowerCase().indexOf(value.toLowerCase()) > 0) {
+                            found = 'true';
+                        }
+                    });
+                    if (found == 'true') {
+                        $(this).show();
+                    }
+                    else {
+                        $(this).hide();
+                    }
+
+                });
+            }
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            var index = 0;
+
+            $('#add').click(function () {
+                if ($("#CategoryId").val() == "") {
+                    alert("Please Select Category");
+                    return;
+                }
+
+                if ($("#ProdctId").val() == "") {
+                    alert("Please Select Prodct");
+                    return;
+                }
+
+                if ($("#Quantity").val() == "") {
+                    alert("Please Enter Qantity");
+                    return;
+                }
+
+                var AvailableQuantity = $("#AvailableQuantity").val();
+                var Quantity = $("#Quantity").val();
+                if (AvailableQuantity < Quantity) {
+                    //alert(" Available quantity goes below the Reorder level ");
+                    //return
+                    var saleViewModel = GetResultData();
+
+                    var resultRow = GerResultRow(saleViewModel);
+
+                    $("#ResultDetailsTable").append(resultRow);
+                    calculateGrandTotal();
+                    getProductsFromTextBox();
+                    DiscountNPayAmountCalculation();
+
+                    index++;
+                }
+                else {
+                    var saleViewModel = GetResultData();
+
+                    var resultRow = GerResultRow(saleViewModel);
+
+                    $("#ResultDetailsTable").append(resultRow);
+                    calculateGrandTotal();
+
+                    DiscountNPayAmountCalculation();
+
+                    index++;
+                }
+
+            });
+
+            function GetResultData() {
+
+                var category = $('#CategoryId').val();
+                var categoryName = $('#CategoryId option:selected').html();
+                var product = $('#ProductId').val();
+                var productName = $('#ProductId option:selected').text();
+                var avlQuantity = $('#AvailableQuantity').val();
+                var qunatity = $('#Quantity').val();
+                var mrp = $('#MRP').val();
+                var totalMrp = $('#TotalMRP').val();
+
+
+                return { CategoryId: category, CategoryName: categoryName, ProductName: productName, ProductId: product, AvailableQuantity: avlQuantity, Quantity: qunatity, MRP: mrp, TotalMRP: totalMrp }
+            }
+
+            var sl = index;
+            function GerResultRow(saleViewModel) {
+
+                var categoryHidden = "<input type='hidden' name='SaleDetials[" + index + "].CategoryId' value='" + saleViewModel.CategoryId + "'></div>";
+                var productHidden = "<input type='hidden' name='SaleDetials[" + index + "].ProductId' value='" + saleViewModel.ProductId + "'></div>";
+                var avlQuantityHidden = "<input type='hidden' name='SaleDetials[" + index + "].AvailableQuantity' value='" + saleViewModel.AvailableQuantity + "'></div>";
+                var qunatityHidden = "<input type='hidden' name='SaleDetials[" + index + "].Quantity' value='" + saleViewModel.Quantity + "'></div>";
+                var mrpHidden = "<input type='hidden' name='SaleDetials[" + index + "].MRP' value='" + saleViewModel.MRP + "'></div>"
+                var totalMrpHidden = "<input type='hidden' name='SaleDetials[" + index + "].TotalMRP' value='" + saleViewModel.TotalMRP + "'></div>"
+
+                var startTr = "<tr>";
+                var slCell = "<td class='text-success'>" + (++sl) + "</td>";
+                var categoryCell = "<td class='text-success'>" + categoryHidden + saleViewModel.CategoryName + "</td>";
+                var productCell = "<td class='text-success'>" + productHidden + saleViewModel.ProductName + "</td>";
+
+                var avlQuantityCell = "<td class='text-success'>" + avlQuantityHidden + saleViewModel.AvailableQuantity + "</td>";
+                var qunatityCell = "<td class='text-success'>" + qunatityHidden + saleViewModel.Quantity + "</td>";
+                var mrpCell = "<td class='text-success'>" + mrpHidden + saleViewModel.MRP + "</td>";
+                var totalMrpCell = "<td class='text-success'id='TotalMRP'>" + totalMrpHidden + saleViewModel.TotalMRP + "</td>";
+
+                var endTr = "</tr>";
+
+                return (startTr + slCell + categoryCell + productCell + avlQuantityCell + qunatityCell + mrpCell + totalMrpCell + endTr);
+
+            }
+
+        });
+    </script>
+
+    <script>
+        ///Ajax
+        $(document).ready(function () {
+            $("#CategoryId").change(function () {
+                var categoryId = $("#CategoryId").val();
+                var jsonRequestData = { categoryId: categoryId }
+                $.ajax({
+                    url: "/Sale/GetProductByCategoryId",
+                    type: "POST",
+                    data: jsonRequestData,
+                    success: function (data) {
+                        $("#ProductId").empty();
+                        $("#ProductId").append(' <option>--Select--</option>');
+                        //alert("Success")
+                        $.each(data, function (key, value) {
+                            //alert("Id:" + value.Id + "Name:" + value.Name)
+                            $("#ProductId").append(' <option value="' + value.Id + '">' + value.Name + '</option>')
+                        });
+                    },
+                    error: function () {
+                        alert("fali to load Product")
+                    }
+                });
+            });
+        });
+    </script>
+
+    <script>
+        //product ajax
+        $(document).ready(function () {
+            $("#ProductId").change(function () {
+                var productId = $("#ProductId").val();
+                var jsonRequestData = { productId: productId }
+
+                $.ajax({
+                    url: "/Sale/GetAvlQuntyByProduct",
+                    type: "POST",
+                    data: jsonRequestData,
+                    success: function (data) {
+                        //alert(data.MRP);
+                        //$("#AvailableQuantity").val(data.AvailableQuantity);
+
+
+                        $("#MRP").val(data.MRP);
+
+                    },
+                    error: function () {
+                        alert("Ajax Failed.");
+                    },
+                });
+            });
+        });
+    </script>
+
+
+
+    <script>
+        ///multification
+        $(document).ready(function () {
+
+            var quantity = 0;
+            var unitPrice = 0;
+            $("#Quantity").keyup(function () {
+                if (!IsNullOrEmpty($("#Quantity").val())) {
+                    quantity = parseInt($("#Quantity").val());
+                }
+                if (!IsNullOrEmpty($("#MRP").val())) {
+                    unitPrice = parseInt($("#MRP").val());
+                }
+                $("#TotalMRP").val(quantity * unitPrice);
+            });
+
+            $("#MRP").keyup(function () {
+                if (!IsNullOrEmpty($("#Quantity").val())) {
+                    quantity = parseInt($("#Quantity").val());
+                }
+                if (!IsNullOrEmpty($("#MRP").val())) {
+                    unitPrice = parseInt($("#MRP").val());
+                }
+                $("#TotalMRP").val(quantity * unitPrice);
+            });
+
+
+            function IsNullOrEmpty(data) {
+                if (data === "" || data === "" || isNaN(data)) {
+                    return true;
+                }
+                return false;
+            }
+        });
+
+    </script>
+
+    <script>
+        //Date
+        //$(document).ready(function () {
+        //    $('#Date').datepicker({
+        //        dateFormat: "dd-mm-yy",
+        //        changeMonth: true,
+        //        changeYear: true,
+        //        yearRange: "2000:2019",
+
+        //    });
+        //});
+
+
+        //loyality point
+        $(document).ready(function () {
+            $("#CustomerId").change(function () {
+                var customerId = $("#CustomerId").val();
+
+                if (CustomerId === undefined || CustomerId.length == 0) {
+                    $("#LoyalityPoint").val("");
+                    $("#Discount").val("");
+                    return;
+                }
+                var jsonRequestData = { customerId: customerId }
+
+                $.ajax({
+                    url: "/Sale/GetLoyalityPointByCustomer",
+                    type: "POST",
+                    data: jsonRequestData,
+                    success: function (data) {
+                        //alert(data.MRP);
+                        $("#LoyalityPoint").val(data.LoyalityPoint);
+                        //$("#PreviousMRP").val(data.PreviousMRP);
+                        //$("#Discount").val(Math.round((data.LoyaltyPoint) / 10));
+
+
+                    },
+                    error: function () {
+                        alert("Ajax Failed LoyalityPoint.");
+                    },
+                });
+            });
+        });
+    </script>
+
+    <script>
+        function calculateGrandTotal() {
+            var sum = 0;
+            $('#ResultDetailsTable tr').each(function () {
+
+                var TotalMRP = $(this).find("td[id='TotalMRP']").text();
+                if (!isNaN(TotalMRP) && TotalMRP.length !== 0) {
+                    sum += parseFloat(TotalMRP);
+                }
+            });
+
+            $("#GrandTotal").val(sum);
+
+        }
+        function DiscountNPayAmountCalculation() {
+
+            var LoyalityPoint = $("#LoyalityPoint").val();
+            var Discount = (LoyalityPoint / 10);
+            $("#Discount").val(Discount);
+            var GrandTotal = $("#GrandTotal").val();
+            var Discount = $("#Discount").val();
+            var DiscountAmount = (GrandTotal * Discount) / 100;
+            $("#DiscountAmount").val(DiscountAmount);
+            $("#PayableAmount").val(GrandTotal - DiscountAmount);
+
+        }
+
+        function AvailableQuantityQuantityGoseToBlew() {
+            var AvailableQuantity = $("#AvailableQuantity").val();
+            var Quantity = $("#Quantity").val();
+            if (AvailableQuantity < Quantity) {
+                alert(" Available quantity goes below the Reorder level ");
+                return
+            }
+
+        }
+
+        function AvailableQuantityQuantityGoseToBlew() {
+            var sum = 0;
+            var presentLoyalityPoint = $("#LoyalityPoint").val();
+            var GrandTotal = $("#GrandTotal").val();
+            var NewLoyalityPoint = (GrandTotal / 1000);
+            sum += (presentLoyalityPoint + NewLoyalityPoint);
+        }
+
+
+
+
+
+
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $("#ProductId").change(function () {
+                var productId = $("#ProductId").val();
+                var jsonRequestData = { productId: productId }
+
+                $.ajax({
+                    url: "/Purchase/GetAvailableQtyByProductId",
+                    type: "POST",
+                    data: jsonRequestData,
+                    success: function (data) {
+                        //alert(data.PreviousUnitPrice);
+                        $("#AvailableQuantity").val(data);
+                        //$("#MRP").val(data);
+                    },
+                    error: function () {
+                        alert("Ajax Failed For AvailableQuantity.");
+                    },
+                });
+            });
+        });
+    </script>
+
+}

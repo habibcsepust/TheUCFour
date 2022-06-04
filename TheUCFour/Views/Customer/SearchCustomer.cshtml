@@ -1,0 +1,139 @@
+﻿@model TheUCFour.Models.CustomerViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section MyStyle
+{
+<style>
+    input[type=text], select {
+        width: 70%;
+        padding: 8px 10px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 15%;
+        background-color: #4CAF50;
+        color: white;
+        text-align: center;
+        padding: 10px 14px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 55%;
+    }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+    /*For table*/
+    #customers {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+        #customers td, #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+        }
+
+        #customers td {
+            text-align: center;
+        }
+
+            #customers td a {
+                text-decoration: none;
+            }
+</style>
+}
+
+<h3 style="text-align:center;">Search Customer</h3>
+<div style="margin-left:22%;">
+    <form method="post">
+        @Html.LabelFor(c => c.Code)<br />
+        @Html.TextBoxFor(c => c.Code, Model.Code)<br />
+        @*@Html.ValidationMessageFor(c => c.Code)<br />*@
+
+        @Html.LabelFor(c => c.Name)<br />
+        @Html.TextBoxFor(c => c.Name, Model.Name)<br />
+        @*@Html.ValidationMessageFor(c => c.Name)<br />*@
+
+        @Html.LabelFor(c => c.Address)<br />
+        @Html.TextBoxFor(c => c.Address, Model.Address)<br />
+        @*@Html.ValidationMessageFor(c => c.Address)<br />*@
+
+        @Html.LabelFor(c => c.Email)<br />
+        @Html.TextBoxFor(c => c.Email, Model.Email)<br />
+        @*@Html.ValidationMessageFor(c => c.Email)<br />*@
+
+        @Html.LabelFor(c => c.Contact)<br />
+        @Html.TextBoxFor(c => c.Contact, Model.Contact)<br />
+        @*@Html.ValidationMessageFor(c => c.Contact)<br />*@
+
+        @Html.LabelFor(c => c.LoyalityPoint)<br />
+        @Html.TextBoxFor(c => c.LoyalityPoint, Model.LoyalityPoint)<br />
+        @*@Html.ValidationMessageFor(c => c.LoyalityPoint)<br />*@
+        <input type="submit" value="Submit">
+    </form>
+</div>
+<br /><br />
+<table id="customers">
+    <tr>
+        <th>SL</th>
+        <th>Code No</th>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Email</th>
+        <th>Contact</th>
+        <th>Loyality Point</th>
+        <th style="text-align:center">Action</th>
+    </tr>
+    @{
+        int i = 0;
+    }
+    @foreach (var customer in Model.Customers)
+    {
+        <tr>
+            <td>@(++i)</td>
+            <td>@customer.Code</td>
+            <td>@customer.Name</td>
+            <td>@customer.Address</td>
+            <td>@customer.Email</td>
+            <td>@customer.Contact</td>
+            <td>@customer.LoyalityPoint</td>
+            <td>
+                <a href="#" style="color:green;font-weight:bold;">Edit</a>
+                <a href="#" style="color:#ff6633;font-weight:bold;">Delete</a>
+                <a href="#" style="color:#6633ff;font-weight:bold;">View</a>
+            </td>
+        </tr>
+    }
+
+</table>
+
+
+

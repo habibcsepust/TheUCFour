@@ -1,0 +1,38 @@
+﻿@model TheUCFour.Models.CategoryViewModel
+
+
+
+<table class="table table-bordered" id="categoryDetails">
+    <thead>
+        <tr>
+            <th>SL</th>
+            <th>Code</th>
+            <th>Name</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int sl = 1;
+        }
+        @foreach (var category in Model.Categories)
+        {
+            <tr>
+                <td>@(sl++)</td>
+                <td>@category.Code</td>
+                <td>@category.Name</td>
+                <td>
+                    <span>
+                        @Html.ActionLink("Edit", "EditCategory", "Category", new { Id = category.Id },
+                           new { @class = "fa fa-edit", style = "text-decoration:none;font-weight:bold;" })
+                    </span>
+                    <span>
+                        @Html.ActionLink("View", "ShowByIdCategory", "Category", new { Id = category.Id },
+                           new { @class = "fa fa-eye", style = "text-decoration:none;font-weight:bold;" })
+                    </span>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>

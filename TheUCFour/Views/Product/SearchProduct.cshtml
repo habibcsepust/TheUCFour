@@ -1,0 +1,109 @@
+﻿@model TheUCFour.Models.ProductViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section MyStyle
+{
+    <style>
+        input[type=text], select {
+            width: 70%;
+            padding: 8px 10px;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 15%;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 14px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 55%;
+        }
+
+            input[type=submit]:hover {
+                background-color: #45a049;
+            }
+
+        /*For table*/
+        #customers {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+            #customers td, #customers th {
+                border: 1px solid #ddd;
+                padding: 8px;
+            }
+
+            #customers tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            #customers tr:hover {
+                background-color: #ddd;
+            }
+
+            #customers th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                text-align: left;
+                background-color: #4CAF50;
+                color: white;
+                text-align: center;
+            }
+
+            #customers td {
+                text-align: center;
+            }
+
+                #customers td a {
+                    text-decoration: none;
+                }
+    </style>
+}
+
+<h3 style="text-align:center;">Search Product</h3>
+<div style="margin-left:22%;">
+    @if (ViewBag.InvalidModel != null)
+    {
+        <h2 style="text-align:center; color:red;"><b>@ViewBag.InvalidModel</b></h2>
+    }
+
+    <form method="post">
+        @Html.LabelFor(c => c.Code)<br />
+        @Html.TextBoxFor(c => c.Code, Model.Code)<br />
+        @*@Html.ValidationMessageFor(c => c.Code)<br />*@
+
+        @Html.LabelFor(c => c.Name)<br />
+        @Html.TextBoxFor(c => c.Name, Model.Name)<br />
+        @*@Html.ValidationMessageFor(c => c.Name)<br />*@
+
+        @Html.LabelFor(c => c.ReorderLevel)<br />
+        @Html.TextBoxFor(c => c.ReorderLevel, Model.ReorderLevel)<br />
+        @*@Html.ValidationMessageFor(c => c.ReorderLevel)<br />*@
+
+        @Html.LabelFor(c => c.Description)<br />
+        @Html.TextBoxFor(c => c.Description, Model.Description)<br />
+        @*@Html.ValidationMessageFor(c => c.Description)<br />*@
+
+        @Html.LabelFor(c => c.Category)<br />
+        @Html.DropDownListFor(c => c.CategoryId, Model.ProductSelectListItems, "--Select--")
+
+        <input type="submit" value="Search">
+    </form>
+</div>
+<br /><br />
+@{
+    Html.RenderPartial("~/Views/Shared/Product/_ProductDetails.cshtml", Model);
+}
+
+

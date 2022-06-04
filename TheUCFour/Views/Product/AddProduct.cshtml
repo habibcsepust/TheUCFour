@@ -1,0 +1,150 @@
+﻿@model TheUCFour.Models.ProductViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section MyStyle
+{
+    <style>
+        input[type=text], select {
+            width: 70%;
+            padding: 8px 10px;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 15%;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 14px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 55%;
+        }
+
+            input[type=submit]:hover {
+                background-color: #45a049;
+            }
+    </style>
+
+    @*For Table*@
+    <style>
+        #ProductDetails th {
+            text-align: center;
+        }
+
+        #ProductDetails td {
+            text-align: center;
+        }
+    </style>
+}
+
+<h3 style="text-align:center;">Add Product</h3>
+<div style="margin-left:22%;">
+    @if (ViewBag.existDuplicate != null)
+    {
+        <h2 style="float:left; color:red;"><b>@ViewBag.existDuplicate</b></h2><br /><br />
+    }
+    @if (ViewBag.InvalidModel != null)
+    {
+        <h2 style="float:left; color:red;"><b>@ViewBag.InvalidModel</b></h2><br /><br />
+    }
+    @if (ViewBag.Message != null)
+    {
+        <h2 style="float:left; color:green;"><b>@ViewBag.Message</b></h2><br /><br /><br /><br />
+    }
+    else
+    {
+        <h2 style="float:left; color:red;"><b>@ViewBag.Message</b></h2><br /><br /><br />
+    }
+
+    <form method="post">
+
+        @Html.LabelFor(c => c.Code)<br />
+        @Html.TextBoxFor(c => c.Code, Model.Code)<br />
+        @Html.ValidationMessageFor(c => c.Code)<br />
+
+        @Html.LabelFor(c => c.Name)<br />
+        @Html.TextBoxFor(c => c.Name, Model.Name)<br />
+        @Html.ValidationMessageFor(c => c.Name)<br />
+
+        @Html.LabelFor(c => c.ReorderLevel)<br />
+        @Html.TextBoxFor(c => c.ReorderLevel, Model.ReorderLevel)<br />
+        @Html.ValidationMessageFor(c => c.ReorderLevel)<br />
+
+        @Html.LabelFor(c => c.Description)<br />
+        @Html.TextBoxFor(c => c.Description, Model.Description)<br />
+        @Html.ValidationMessageFor(c => c.Description)<br />
+
+        @Html.LabelFor(c => c.Category)<br />
+        @Html.DropDownListFor(c => c.CategoryId, Model.ProductSelectListItems, "--Select--")
+
+        <input type="submit" value="Submit" style="margin-top:1%">
+    </form>
+</div>
+<br /><br />
+
+<span>
+    @Html.ActionLink("Show All", "AddProduct", "Product",
+       new { @class = "pull-right", style = "text-decoration:none;" +
+       "Background:#4287f5;Padding:6px 15px;color:white;font-weight:bold;"
+       })
+</span>
+
+<div>
+    <input type="text" name="Search" id="Search" value="" placeholder="Search"
+           style="padding: 8px;width:25%" />
+    <button id="SearchButton" style="padding: 6px 10px;">Search</button>
+    <h4 id="required" style="color:red;"></h4>
+</div>
+
+@{
+    Html.RenderPartial("~/Views/Shared/Product/_ProductDetails.cshtml", Model);
+}
+
+@section MyScript
+{
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+
+    @*For Live Search*@
+    <script>
+        $(document).ready(function () {
+            $("#SearchButton").click(function () {
+                if ($("#Search").val() == "") {
+                    //alert("required..");
+                    $("#required").text("Please Required Search Value");
+                    return;
+                }
+                $("#required").text("");
+                SearchTable($("#Search").val());
+            });
+
+            function SearchTable(value) {
+                $("#ProductDetails tbody tr").each(function () {
+                    var found = 'false';
+                    $(this).each(function () {
+                        if ($(this).text().toLowerCase().indexOf(value.toLowerCase()) > 0) {
+                            found = 'true';
+                        }
+                    });
+                    if (found == 'true') {
+                        $(this).show();
+                    }
+                    else {
+                        $(this).hide();
+                    }
+
+                });
+            }
+        });
+    </script>
+}
+
+

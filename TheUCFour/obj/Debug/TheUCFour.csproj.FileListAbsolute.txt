@@ -1,0 +1,544 @@
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\TheUCFour.dll.config
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\TheUCFour.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\TheUCFour.pdb
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\csc.exe
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\csc.exe.config
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\csc.rsp
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\csi.exe
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\csi.exe.config
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\csi.rsp
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\System.AppContext.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\System.Console.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\System.IO.Compression.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\System.Security.Claims.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\System.ValueTuple.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\vbc.exe
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\vbc.exe.config
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\vbc.rsp
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\VBCSCompiler.exe
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\AutoMapper.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\EntityFramework.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\EntityFramework.SqlServer.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\System.ValueTuple.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\System.Web.Helpers.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\System.Web.Mvc.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\System.Web.Razor.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\System.Web.Webpages.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\System.Web.Webpages.Razor.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\TheUCFour.BLL.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\TheUCFour.Model.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\TheUCFour.Repository.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\TheUCFour.DatabaseContext.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\TheUCFour.BLL.pdb
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\TheUCFour.BLL.dll.config
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\TheUCFour.Model.pdb
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\AutoMapper.pdb
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\AutoMapper.xml
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\EntityFramework.xml
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\EntityFramework.SqlServer.xml
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\System.ValueTuple.xml
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\System.Web.Razor.xml
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\System.Web.Webpages.xml
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\System.Web.Webpages.Razor.xml
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\System.Web.Helpers.xml
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\System.Web.Mvc.xml
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\TheUCFour.Repository.pdb
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\TheUCFour.Repository.dll.config
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\TheUCFour.DatabaseContext.pdb
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\bin\TheUCFour.DatabaseContext.dll.config
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\obj\Debug\TheUCFour.csprojAssemblyReference.cache
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\obj\Debug\TheUCFour.csproj.CoreCompileInputs.cache
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\obj\Debug\TheUCFour.csproj.CopyComplete
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\obj\Debug\TheUCFour.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour\obj\Debug\TheUCFour.pdb
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\TheUCFour.dll.config
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\TheUCFour.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\TheUCFour.pdb
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\csc.exe
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\csc.exe.config
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\csc.rsp
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\csi.exe
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\csi.exe.config
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\csi.rsp
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\System.AppContext.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\System.Console.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\System.IO.Compression.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\System.Security.Claims.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\System.ValueTuple.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\vbc.exe
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\vbc.exe.config
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\vbc.rsp
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\VBCSCompiler.exe
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\AutoMapper.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\EntityFramework.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\EntityFramework.SqlServer.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\System.ValueTuple.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\System.Web.Helpers.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\System.Web.Mvc.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\System.Web.Razor.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\System.Web.Webpages.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\System.Web.Webpages.Razor.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\TheUCFour.BLL.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\TheUCFour.Model.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\TheUCFour.ViewModel.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\TheUCFour.Repository.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\TheUCFour.DatabaseContext.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\TheUCFour.BLL.pdb
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\TheUCFour.BLL.dll.config
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\TheUCFour.Model.pdb
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\TheUCFour.ViewModel.pdb
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\AutoMapper.pdb
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\AutoMapper.xml
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\EntityFramework.xml
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\EntityFramework.SqlServer.xml
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\System.ValueTuple.xml
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\System.Web.Razor.xml
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\System.Web.Webpages.xml
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\System.Web.Webpages.Razor.xml
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\System.Web.Helpers.xml
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\System.Web.Mvc.xml
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\TheUCFour.Repository.pdb
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\TheUCFour.Repository.dll.config
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\TheUCFour.DatabaseContext.pdb
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\bin\TheUCFour.DatabaseContext.dll.config
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\obj\Debug\TheUCFour.csprojAssemblyReference.cache
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\obj\Debug\TheUCFour.csproj.CoreCompileInputs.cache
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\obj\Debug\TheUCFour.csproj.CopyComplete
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\obj\Debug\TheUCFour.dll
+C:\Users\Web App Develop .Net\Desktop\p\TheUCFour\TheUCFour\obj\Debug\TheUCFour.pdb
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\TheUCFour.dll.config
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\TheUCFour.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\TheUCFour.pdb
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\csc.exe
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\csc.exe.config
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\csc.rsp
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\csi.exe
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\csi.exe.config
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\csi.rsp
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\Microsoft.Managed.Core.targets
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\System.AppContext.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\System.Collections.Immutable.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\System.Console.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\System.IO.Compression.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\System.IO.FileSystem.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\System.IO.Pipes.AccessControl.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\System.IO.Pipes.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\System.Reflection.Metadata.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\System.Security.AccessControl.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\System.Security.Claims.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\System.Security.Principal.Windows.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\System.ValueTuple.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\System.Xml.XmlDocument.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\System.Xml.XPath.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\vbc.exe
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\vbc.exe.config
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\vbc.rsp
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\VBCSCompiler.exe
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\roslyn\VBCSCompiler.exe.config
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\AutoMapper.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\EntityFramework.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\EntityFramework.SqlServer.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\Microsoft.Web.Infrastructure.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\System.ValueTuple.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\System.Web.Helpers.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\System.Web.Mvc.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\System.Web.Razor.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\System.Web.Webpages.Deployment.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\System.Web.Webpages.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\System.Web.Webpages.Razor.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\TheUCFour.BLL.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\TheUCFour.Model.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\TheUCFour.ViewModel.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\TheUCFour.Repository.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\TheUCFour.DatabaseContext.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\TheUCFour.BLL.pdb
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\TheUCFour.BLL.dll.config
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\TheUCFour.Model.pdb
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\TheUCFour.ViewModel.pdb
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\AutoMapper.pdb
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\AutoMapper.xml
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\EntityFramework.xml
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\EntityFramework.SqlServer.xml
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\System.ValueTuple.xml
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\System.Web.Razor.xml
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\System.Web.Webpages.xml
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\System.Web.Webpages.Deployment.xml
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\System.Web.Webpages.Razor.xml
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\System.Web.Helpers.xml
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\System.Web.Mvc.xml
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\TheUCFour.Repository.pdb
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\TheUCFour.Repository.dll.config
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\TheUCFour.DatabaseContext.pdb
+G:\CSharpDotNet\TheUCFour\TheUCFour\bin\TheUCFour.DatabaseContext.dll.config
+G:\CSharpDotNet\TheUCFour\TheUCFour\obj\Debug\TheUCFour.csprojAssemblyReference.cache
+G:\CSharpDotNet\TheUCFour\TheUCFour\obj\Debug\TheUCFour.csproj.CoreCompileInputs.cache
+G:\CSharpDotNet\TheUCFour\TheUCFour\obj\Debug\TheUCFour.csproj.CopyComplete
+G:\CSharpDotNet\TheUCFour\TheUCFour\obj\Debug\TheUCFour.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour\obj\Debug\TheUCFour.pdb
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\TheUCFour.dll.config
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\TheUCFour.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\TheUCFour.pdb
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\csc.exe
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\csc.exe.config
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\csc.rsp
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\csi.exe
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\csi.exe.config
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\csi.rsp
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\System.AppContext.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\System.Console.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\System.IO.Compression.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\System.Security.Claims.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\System.ValueTuple.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\vbc.exe
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\vbc.exe.config
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\vbc.rsp
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\VBCSCompiler.exe
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\AutoMapper.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\EntityFramework.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\EntityFramework.SqlServer.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\System.ValueTuple.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\System.Web.Helpers.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\System.Web.Mvc.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\System.Web.Razor.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\System.Web.Webpages.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\System.Web.Webpages.Razor.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\TheUCFour.BLL.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\TheUCFour.Model.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\TheUCFour.ViewModel.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\TheUCFour.Repository.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\TheUCFour.DatabaseContext.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\TheUCFour.BLL.pdb
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\TheUCFour.BLL.dll.config
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\TheUCFour.Model.pdb
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\TheUCFour.ViewModel.pdb
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\AutoMapper.pdb
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\AutoMapper.xml
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\EntityFramework.xml
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\EntityFramework.SqlServer.xml
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\System.ValueTuple.xml
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\System.Web.Razor.xml
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\System.Web.Webpages.xml
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\System.Web.Webpages.Razor.xml
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\System.Web.Helpers.xml
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\System.Web.Mvc.xml
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\TheUCFour.Repository.pdb
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\TheUCFour.Repository.dll.config
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\TheUCFour.DatabaseContext.pdb
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\bin\TheUCFour.DatabaseContext.dll.config
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\obj\Debug\TheUCFour.csprojAssemblyReference.cache
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\obj\Debug\TheUCFour.csproj.CoreCompileInputs.cache
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\obj\Debug\TheUCFour.csproj.CopyComplete
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\obj\Debug\TheUCFour.dll
+C:\Users\Web App Develop .Net\Desktop\Today\TheUCFour\TheUCFour\obj\Debug\TheUCFour.pdb
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\TheUCFour.dll.config
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\TheUCFour.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\TheUCFour.pdb
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\csc.exe
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\csc.exe.config
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\csc.rsp
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\csi.exe
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\csi.exe.config
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\csi.rsp
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\System.AppContext.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\System.Collections.Immutable.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\System.Console.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\System.IO.Compression.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\System.IO.FileSystem.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\System.IO.Pipes.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\System.Reflection.Metadata.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\System.Security.AccessControl.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\System.Security.Claims.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\System.ValueTuple.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\System.Xml.XPath.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\vbc.exe
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\vbc.exe.config
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\vbc.rsp
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\VBCSCompiler.exe
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\roslyn\VBCSCompiler.exe.config
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\AutoMapper.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\EntityFramework.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\EntityFramework.SqlServer.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\Microsoft.Web.Infrastructure.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\System.ValueTuple.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\System.Web.Helpers.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\System.Web.Mvc.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\System.Web.Razor.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\System.Web.Webpages.Deployment.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\System.Web.Webpages.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\System.Web.Webpages.Razor.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\TheUCFour.BLL.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\TheUCFour.Model.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\TheUCFour.ViewModel.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\TheUCFour.Repository.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\TheUCFour.DatabaseContext.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\TheUCFour.BLL.pdb
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\TheUCFour.BLL.dll.config
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\TheUCFour.Model.pdb
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\TheUCFour.ViewModel.pdb
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\AutoMapper.pdb
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\AutoMapper.xml
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\EntityFramework.xml
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\EntityFramework.SqlServer.xml
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\System.ValueTuple.xml
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\System.Web.Razor.xml
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\System.Web.Webpages.xml
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\System.Web.Webpages.Deployment.xml
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\System.Web.Webpages.Razor.xml
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\System.Web.Helpers.xml
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\System.Web.Mvc.xml
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\TheUCFour.Repository.pdb
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\TheUCFour.Repository.dll.config
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\TheUCFour.DatabaseContext.pdb
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\bin\TheUCFour.DatabaseContext.dll.config
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\obj\Debug\TheUCFour.csprojAssemblyReference.cache
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\obj\Debug\TheUCFour.csproj.CoreCompileInputs.cache
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\obj\Debug\TheUCFour.csproj.CopyComplete
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\obj\Debug\TheUCFour.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour\obj\Debug\TheUCFour.pdb
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\TheUCFour.dll.config
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\TheUCFour.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\TheUCFour.pdb
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\csc.exe
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\csc.exe.config
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\csc.rsp
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\csi.exe
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\csi.exe.config
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\csi.rsp
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\System.AppContext.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\System.Console.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\System.IO.Compression.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\System.IO.Pipes.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\System.Security.Claims.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\System.ValueTuple.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\System.Xml.XPath.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\vbc.exe
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\vbc.exe.config
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\vbc.rsp
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\VBCSCompiler.exe
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\AutoMapper.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\EntityFramework.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\EntityFramework.SqlServer.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\System.ValueTuple.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\System.Web.Helpers.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\System.Web.Mvc.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\System.Web.Razor.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\System.Web.Webpages.Deployment.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\System.Web.Webpages.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\System.Web.Webpages.Razor.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\TheUCFour.BLL.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\TheUCFour.Model.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\TheUCFour.ViewModel.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\TheUCFour.Repository.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\TheUCFour.DatabaseContext.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\TheUCFour.BLL.pdb
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\TheUCFour.BLL.dll.config
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\TheUCFour.Model.pdb
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\TheUCFour.ViewModel.pdb
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\AutoMapper.pdb
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\AutoMapper.xml
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\EntityFramework.xml
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\EntityFramework.SqlServer.xml
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\System.ValueTuple.xml
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\System.Web.Razor.xml
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\System.Web.Webpages.xml
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\System.Web.Webpages.Deployment.xml
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\System.Web.Webpages.Razor.xml
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\System.Web.Helpers.xml
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\System.Web.Mvc.xml
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\TheUCFour.Repository.pdb
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\TheUCFour.Repository.dll.config
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\TheUCFour.DatabaseContext.pdb
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\bin\TheUCFour.DatabaseContext.dll.config
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\obj\Debug\TheUCFour.csproj.AssemblyReference.cache
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\obj\Debug\TheUCFour.csproj.CoreCompileInputs.cache
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\obj\Debug\TheUCFour.csproj.CopyComplete
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\obj\Debug\TheUCFour.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour\obj\Debug\TheUCFour.pdb

@@ -1,0 +1,113 @@
+﻿@model TheUCFour.Models.SupplierViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section MyStyle
+{
+    <style>
+        input[type=text], select {
+            width: 70%;
+            padding: 8px 10px;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 15%;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 14px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 55%;
+        }
+
+            input[type=submit]:hover {
+                background-color: #45a049;
+            }
+    </style>
+
+    @*For Table*@
+    <style>
+        #SupplierDetails th {
+            text-align: center;
+        }
+
+        #SupplierDetails td {
+            text-align: center;
+        }
+    </style>
+}
+
+<span>
+    @Html.ActionLink("Add New", "AddSupplier", "Supplier",
+       new { @class = "pull-right", style = "text-decoration:none;margin-top:2%;" +
+       "Background:#59254d;Padding:6px 15px;color:white;font-weight:bold;"
+       })
+</span>
+
+<h3 style="text-align:center;">Update Supplier</h3>
+<div style="margin-left:22%;">
+    @*@if (ViewBag.existDuplicate != null)
+        {
+            <h2 style="float:left; color:red;"><b>@ViewBag.existDuplicate</b></h2><br />
+        }
+        @if (ViewBag.InvalidModel != null)
+        {
+            <h2 style="float:left; color:red;"><b>@ViewBag.InvalidModel</b></h2><br />
+        }*@
+    @if (ViewBag.Message != null)
+    {
+        <h2 style="float:left; color:green;"><b>@ViewBag.Message</b></h2><br />
+         <br /><br /><br />
+    }
+    else
+    {
+        <h2 style="float:left; color:red;"><b>@ViewBag.Message</b></h2><br />
+        <br /><br />
+    }
+
+    <form method="post">
+        @Html.LabelFor(c => c.Code)<br />
+        @Html.TextBoxFor(c => c.Code, Model.Code)<br />
+        @Html.ValidationMessageFor(c => c.Code)<br />
+
+        @Html.LabelFor(c => c.Name)<br />
+        @Html.TextBoxFor(c => c.Name, Model.Name)<br />
+        @Html.ValidationMessageFor(c => c.Name)<br />
+
+        @Html.LabelFor(c => c.Address)<br />
+        @Html.TextBoxFor(c => c.Address, Model.Address)<br />
+        @Html.ValidationMessageFor(c => c.Address)<br />
+
+        @Html.LabelFor(c => c.Email)<br />
+        @Html.TextBoxFor(c => c.Email, Model.Email)<br />
+        @Html.ValidationMessageFor(c => c.Email)<br />
+
+        @Html.LabelFor(c => c.Contact)<br />
+        @Html.TextBoxFor(c => c.Contact, Model.Contact)<br />
+        @Html.ValidationMessageFor(c => c.Contact)<br />
+
+        @Html.LabelFor(c => c.ContactPerson)<br />
+        @Html.TextBoxFor(c => c.ContactPerson, Model.ContactPerson)<br />
+        @Html.ValidationMessageFor(c => c.ContactPerson)<br />
+        <input type="submit" value="Update">
+    </form>
+</div>
+<br /><br />
+
+@{
+    Html.RenderPartial("~/Views/Shared/Supplier/_SupplierDetails.cshtml", Model);
+}
+
+@section MyScript
+{
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+}
+

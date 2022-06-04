@@ -1,0 +1,89 @@
+﻿@model TheUCFour.Models.SupplierViewModel
+
+<table class="table table-bordered" id="SupplierDetails">
+    <thead>
+        <tr>
+            <th>SL</th>
+            <th>Code No</th>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Email</th>
+            <th>Contact</th>
+            <th>Contact Person</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int sl = 1;
+        }
+        @foreach (var supplier in Model.Suppliers)
+        {
+        <tr>
+            <td>@(sl++)</td>
+            <td>@supplier.Code</td>
+            <td>@supplier.Name</td>
+            <td>@supplier.Address</td>
+            <td>@supplier.Email</td>
+            <td>@supplier.Contact</td>
+            <td>@supplier.ContactPerson</td>
+            <td>
+                <span style="font-weight:bold;">
+                    @Html.ActionLink("Edit", "EditSupplier", "Supplier", new { Id = supplier.Id },
+                    new { @class = "fa fa-edit", style = "text-decoration:none;font-weight:bold;" })
+                </span>
+                <span style="font-weight:bold;">
+                    @Html.ActionLink("Delete", "DeleteSupplier", "Supplier", new { Id = supplier.Id },
+                    new { @class = "fas fa-trash-alt", style = "text-decoration:none;font-weight:bold;" })
+                </span>
+                <span style="font-weight:bold;">
+                    @Html.ActionLink("View", "ShowByIdSupplier", "Supplier", new { Id = supplier.Id },
+                    new { @class = "fa fa-eye", style = "text-decoration:none;font-weight:bold;" })
+                </span>
+            </td>
+        </tr>
+        }
+    </tbody>
+
+</table>
+
+
+@*<table id="customers">
+    <tr>
+        <th>SL</th>
+        <th>Code No</th>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Email</th>
+        <th>Contact</th>
+        <th>Contact Person</th>
+        <th style="text-align:center">Action</th>
+    </tr>
+    @{
+        int i = 0;
+    }
+    @foreach (var supplier in Model.Suppliers)
+    {
+        <tr>
+            <td>@(++i)</td>
+            <td>@supplier.Code</td>
+            <td>@supplier.Name</td>
+            <td>@supplier.Address</td>
+            <td>@supplier.Email</td>
+            <td>@supplier.Contact</td>
+            <td>@supplier.ContactPerson</td>
+            <td>
+                <span style="font-weight:bold;">
+                    @Html.ActionLink("Edit", "EditSupplier", "Supplier", new { Id = supplier.Id }, null)
+                </span>
+                <span style="font-weight:bold;">
+                    @Html.ActionLink("Delete", "DeleteSupplier", "Supplier", new { Id = supplier.Id }, null)
+                </span>
+                <span style="font-weight:bold;">
+                    @Html.ActionLink("View", "ShowByIdSupplier", "Supplier", new { Id = supplier.Id }, null)
+                </span>
+            </td>
+        </tr>
+    }
+
+</table>*@

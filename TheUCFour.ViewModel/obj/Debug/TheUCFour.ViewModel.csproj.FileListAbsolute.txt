@@ -1,0 +1,18 @@
+G:\CSharpDotNet\TheUCFour\TheUCFour.ViewModel\bin\Debug\TheUCFour.ViewModel.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour.ViewModel\bin\Debug\TheUCFour.ViewModel.pdb
+G:\CSharpDotNet\TheUCFour\TheUCFour.ViewModel\obj\Debug\TheUCFour.ViewModel.csprojAssemblyReference.cache
+G:\CSharpDotNet\TheUCFour\TheUCFour.ViewModel\obj\Debug\TheUCFour.ViewModel.csproj.CoreCompileInputs.cache
+G:\CSharpDotNet\TheUCFour\TheUCFour.ViewModel\obj\Debug\TheUCFour.ViewModel.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour.ViewModel\obj\Debug\TheUCFour.ViewModel.pdb
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour.ViewModel\bin\Debug\TheUCFour.ViewModel.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour.ViewModel\bin\Debug\TheUCFour.ViewModel.pdb
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour.ViewModel\obj\Debug\TheUCFour.ViewModel.csprojAssemblyReference.cache
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour.ViewModel\obj\Debug\TheUCFour.ViewModel.csproj.CoreCompileInputs.cache
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour.ViewModel\obj\Debug\TheUCFour.ViewModel.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour.ViewModel\obj\Debug\TheUCFour.ViewModel.pdb
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour.ViewModel\bin\Debug\TheUCFour.ViewModel.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour.ViewModel\bin\Debug\TheUCFour.ViewModel.pdb
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour.ViewModel\obj\Debug\TheUCFour.ViewModel.csproj.AssemblyReference.cache
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour.ViewModel\obj\Debug\TheUCFour.ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour.ViewModel\obj\Debug\TheUCFour.ViewModel.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour.ViewModel\obj\Debug\TheUCFour.ViewModel.pdb

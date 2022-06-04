@@ -1,0 +1,24 @@
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour.Model\bin\Debug\TheUCFour.Model.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour.Model\bin\Debug\TheUCFour.Model.pdb
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour.Model\obj\Debug\TheUCFour.Model.csprojAssemblyReference.cache
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour.Model\obj\Debug\TheUCFour.Model.csproj.CoreCompileInputs.cache
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour.Model\obj\Debug\TheUCFour.Model.dll
+C:\Users\Web App Develop .Net\Desktop\MyProject\TheUCFour\TheUCFour.Model\obj\Debug\TheUCFour.Model.pdb
+G:\CSharpDotNet\TheUCFour\TheUCFour.Model\bin\Debug\TheUCFour.Model.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour.Model\bin\Debug\TheUCFour.Model.pdb
+G:\CSharpDotNet\TheUCFour\TheUCFour.Model\obj\Debug\TheUCFour.Model.csprojAssemblyReference.cache
+G:\CSharpDotNet\TheUCFour\TheUCFour.Model\obj\Debug\TheUCFour.Model.csproj.CoreCompileInputs.cache
+G:\CSharpDotNet\TheUCFour\TheUCFour.Model\obj\Debug\TheUCFour.Model.dll
+G:\CSharpDotNet\TheUCFour\TheUCFour.Model\obj\Debug\TheUCFour.Model.pdb
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour.Model\bin\Debug\TheUCFour.Model.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour.Model\bin\Debug\TheUCFour.Model.pdb
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour.Model\obj\Debug\TheUCFour.Model.csprojAssemblyReference.cache
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour.Model\obj\Debug\TheUCFour.Model.csproj.CoreCompileInputs.cache
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour.Model\obj\Debug\TheUCFour.Model.dll
+D:\Data Files\Downloads\Today\TheUCFour\TheUCFour.Model\obj\Debug\TheUCFour.Model.pdb
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour.Model\bin\Debug\TheUCFour.Model.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour.Model\bin\Debug\TheUCFour.Model.pdb
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour.Model\obj\Debug\TheUCFour.Model.csproj.AssemblyReference.cache
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour.Model\obj\Debug\TheUCFour.Model.csproj.CoreCompileInputs.cache
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour.Model\obj\Debug\TheUCFour.Model.dll
+C:\Users\bg----\Desktop\Small-Business-Management-System\TheUCFour\TheUCFour.Model\obj\Debug\TheUCFour.Model.pdb
